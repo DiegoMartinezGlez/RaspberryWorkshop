@@ -1,1 +1,3 @@
 # RaspberryWorkshop
+
+Raspberry scripts and tips ... work in progress ...
