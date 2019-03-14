@@ -23,3 +23,5 @@ It is easy: edit 3 lines a system file.
 - Reboot to apply changes: type *reboot*
 
 Make sure it is not used by another device to avoid conflicts.
+
+[Back to RaspberryWorkshop index](../README.md)
