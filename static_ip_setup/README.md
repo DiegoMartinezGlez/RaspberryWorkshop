@@ -24,4 +24,4 @@ It is easy: edit 3 lines a system file.
 
 Make sure it is not used by another device to avoid conflicts.
 
-[Back to RaspberryWorkshop index](../README.md)
+[Back to RaspberryWorkshop index](../)
