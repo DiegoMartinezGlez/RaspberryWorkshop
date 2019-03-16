@@ -33,9 +33,7 @@ Open raspi config:
 
 ### Test camera from shell:
 
-Test with raspistill (takes a pic and save it to a file):
+Test with raspistill (takes a pic and save it to a file). Type in shell:
 - raspistill -v -o test.jpg
-
-https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 
 [Back to RaspberryWorkshop index](https://github.com/DiegoMartinezGlez/RaspberryWorkshop)
