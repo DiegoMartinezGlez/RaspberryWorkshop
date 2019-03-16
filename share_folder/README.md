@@ -22,12 +22,12 @@ Samba implements the SMB protocol and provides support for the Windows naming se
 Install Samba:
 - *sudo apt-get install samba samba-common-bin*
 
-Setup: 
+Setup: edit samba config file
 - *sudo nano /etc/samba/smb.conf*
-- Consider lines:
- - 
- - 
- 
+- Change line "workgroup = WORKGROUP" if you need another workgroup name for your local network. This is default for Windows 7.
+- For windows support set: "wins support = yes"
+- Take a quick view of the file in order to check other configuration parameters
+
 Share folder:
 - *sudo nano /etc/samba/smb.conf*
 - At the end of the file, add your config:
