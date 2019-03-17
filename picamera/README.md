@@ -42,4 +42,13 @@ Open raspi config:
 Test with raspistill (takes a pic and save it to a file). Type in shell:
 - raspistill -v -o test.jpg
 
+### Test camera with python:
+
+Run the test.py script in shell:
+- Download this project, parent project or just the script file *test.py*
+- Run in shell: *python test.py*
+
+You should see during 10 seconds picamera video streaming. WARNING: if you are usin remote desktop maybe you won't see anything.
+It is recommended to run this script with Raspberry connected to a screen.
+
 [Back to RaspberryWorkshop index](https://github.com/DiegoMartinezGlez/RaspberryWorkshop)
