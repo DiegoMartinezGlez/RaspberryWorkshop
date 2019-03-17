@@ -53,7 +53,7 @@ camera.start_preview()
 sleep(10)
 camera.stop_preview()
 ```
-(*sleep(10)* in between to give you some time to watch the preview. You need to watch Raspberry directly connected to a screen, preview is not visible in remote with SSH or VNC)
+(*sleep(10)* in between to give you 10 seconds to watch the preview. You need to watch Raspberry directly connected to a screen, preview is not visible in remote with SSH or VNC)
 
 ## References
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
