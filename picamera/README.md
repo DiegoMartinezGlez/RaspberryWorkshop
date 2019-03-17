@@ -20,7 +20,7 @@ Before setup/test, upgrade raspi system:
 
 Plug the bus in the socket between the HDMI port and minijack audio output. Image reference from both sides of the bus:
 
-<p align="center"><img src="connect-camera.jpg" /></p>
+<p align="center"><img style="width: 50%;" src="connect-camera.jpg" /></p>
 
 ### Setup from Raspbian Desktop:
 
