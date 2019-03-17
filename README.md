@@ -6,8 +6,8 @@ Raspberry scripts and tips ... work in progress ...
 Set a static IP for your raspberry device, using Raspbian or any other linux distribution 
 [LINK](https://github.com/DiegoMartinezGlez/RaspberryWorkshop/tree/master/static_ip_setup)
 
-### Picamera Setup:
-How to connect, setup and test picamera. Test with python script.
+### Picamera:
+How to connect, setup and test picamera. Handle picamera with Python.
 [LINK](https://github.com/DiegoMartinezGlez/RaspberryWorkshop/tree/master/picamera)
 
 ### Share Folder:
