@@ -48,11 +48,11 @@ Raspbian includes Python 2 and 3, and also the python libraries to handle the pi
 
 ### Show preview
 This is used here previously in *Test camera with python* with *test.py* script. You need to start and stop preview with this methods:
-'''
+```
 camera.start_preview()
 sleep(10)
 camera.stop_preview()
-'''
+```
 (*sleep(10)* in between to give you some time to watch the preview. You need to watch Raspberry directly connected to a screen, preview is not visible in remote with SSH or VNC)
 
 ## References
