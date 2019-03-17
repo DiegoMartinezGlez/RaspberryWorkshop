@@ -16,6 +16,12 @@ Before setup/test, upgrade raspi system:
 - sudo apt-get update
 - sudo apt-get upgrade
 
+### Connect picamera:
+
+Plug the bus in the socket between the HDMI port and minijack audio output. Image reference:
+
+<p align="center"><img src="connect-camera.jpg" /></p>
+
 ### Setup from Raspbian Desktop:
 
 - Preferences > Raspberry Pi Setup
