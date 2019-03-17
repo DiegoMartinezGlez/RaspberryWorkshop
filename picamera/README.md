@@ -4,7 +4,7 @@
 
 How to use Picamera in Raspberry. 
 
-Picamera is the official camera from Raspberry but there are many compatible cameras from other vendors that also work fine (I had no problem with any other non-offical camera). 
+Picamera is the official camera from Raspberry but there are many compatible cameras from other vendors that also work fine. 
 
 ### Requirements:
 
