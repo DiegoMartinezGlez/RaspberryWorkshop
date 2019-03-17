@@ -18,7 +18,7 @@ Before setup/test, upgrade raspi system:
 
 ### Connect picamera:
 
-Plug the bus in the socket between the HDMI port and minijack audio output. Image reference:
+Plug the bus in the socket between the HDMI port and minijack audio output. Image reference from both sides of the bus:
 
 <p align="center"><img src="connect-camera.jpg" /></p>
 
