@@ -1,6 +1,7 @@
 # RaspberryWorkshop
 
-Raspberry scripts and tips ... work in progress ...
+Raspberry mini tutorials collection for begginers
+... work in progress ...
 
 ### Static IP setup: 
 Set a static IP for your raspberry device, using Raspbian or any other linux distribution 
