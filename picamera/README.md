@@ -4,7 +4,7 @@
 
 How to use Picamera in Raspberry. 
 
-Picamera is the official camera from Raspberry but there are many compatible cameras from other vendors that also work fine (I had no problem with any other non-offical camera). 
+Picamera is the official camera from Raspberry but there are many compatible cameras from other vendors that also work fine. 
 
 ### Requirements:
 
@@ -18,9 +18,9 @@ Before setup/test, upgrade raspi system:
 
 ### Connect picamera:
 
-Plug the bus in the socket between the HDMI port and minijack audio output. Image reference:
+Plug the bus in the socket between the HDMI port and minijack audio output. Image reference from both sides of the bus:
 
-<p align="center"><img src="connect-camera.jpg" /></p>
+<p align="center"><img style="width: 50%;" src="connect-camera.jpg" /></p>
 
 ### Setup from Raspbian Desktop:
 
