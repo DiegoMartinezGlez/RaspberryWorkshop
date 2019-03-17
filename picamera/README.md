@@ -51,4 +51,17 @@ Run the test.py script in shell:
 You should see during 10 seconds picamera video streaming. WARNING: if you are usin remote desktop maybe you won't see anything.
 It is recommended to run this script with Raspberry connected to a screen.
 
+## Picamera + Python
+
+Raspbian includes Python 2 and 3, and also the python libraries to handle the picamera. You need nothing but some Python basics to do whatever you need with your picamera.
+
+... work in progress ...
+
+### Test camera with python:
+
+Run the test.py script in shell:
+
+## References
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
+
 [Back to RaspberryWorkshop index](https://github.com/DiegoMartinezGlez/RaspberryWorkshop)
