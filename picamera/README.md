@@ -55,11 +55,30 @@ camera.stop_preview()
 ```
 (*sleep(10)* in between to give you 10 seconds to watch the preview. You need to watch Raspberry directly connected to a screen, preview is not visible in remote with SSH or VNC)
 
-### Capture
+### Image Capture
 Take a photo and save it as jpg:
 ```
 camera.capture('/home/pi/snap.jpg')
 ```
+Example: capture 5 snaps with one minute separation:
+```
+camera.start_preview()
+for i in range(5):
+    sleep(60)
+    camera.capture('/home/pi/snap_%.jpg' % i)
+camera.stop_preview()
+```
+
+### Video Capture
+Take 1 minute of video:
+```
+camera.start_preview()
+camera.start_recording('/home/pi/video.h264')
+sleep(60)
+camera.stop_recording()
+camera.stop_preview()
+```
+
 
 ## References
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
