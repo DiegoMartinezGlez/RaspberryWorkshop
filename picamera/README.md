@@ -46,6 +46,12 @@ It is recommended to run this script with Raspberry connected to a screen.
 ## Picamera + Python
 Raspbian includes Python 2 and 3, and also the python libraries to handle the picamera. You need nothing but some Python basics to do whatever you need with your picamera.
 
+For the python lines in this chapter you will need to import this depencies (as you can see in *test.py*):
+```
+from time import sleep
+from picamera import PiCamera
+```
+
 ### Show preview
 This is used here previously in *Test camera with python* with *test.py* script. You need to start and stop preview with this methods:
 ```
@@ -54,6 +60,15 @@ sleep(10)
 camera.stop_preview()
 ```
 (*sleep(10)* in between to give you 10 seconds to watch the preview. You need to watch Raspberry directly connected to a screen, preview is not visible in remote with SSH or VNC)
+
+You can also set resolution before starting preview:
+
+```
+camera.resolution = (1024, 768)
+camera.start_preview()
+sleep(10)
+camera.stop_preview()
+```
 
 ### Image Capture
 Take a photo and save it as jpg:
@@ -67,6 +82,10 @@ for i in range(5):
     sleep(60)
     camera.capture('/home/pi/snap_%.jpg' % i)
 camera.stop_preview()
+```
+You also can resize image with the same function:
+```
+camera.capture('/home/pi/snap.jpg', resize=(800, 600))
 ```
 
 ### Video Capture
@@ -82,5 +101,6 @@ camera.stop_preview()
 
 ## References
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
+https://picamera.readthedocs.io
 
 [Back to RaspberryWorkshop index](https://github.com/DiegoMartinezGlez/RaspberryWorkshop)
