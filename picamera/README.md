@@ -46,10 +46,11 @@ It is recommended to run this script with Raspberry connected to a screen.
 ## Picamera + Python
 Raspbian includes Python 2 and 3, and also the python libraries to handle the picamera. You need nothing but some Python basics to do whatever you need with your picamera.
 
-For the python lines in this chapter you will need to import this depencies (as you can see in *test.py*):
+For the python lines in this chapter you will need to import this depencies (as you can see in *test.py*) and init camera var:
 ```
 from time import sleep
 from picamera import PiCamera
+camera = PiCamera()
 ```
 
 ### Show preview
@@ -75,6 +76,10 @@ Take a photo and save it as jpg:
 ```
 camera.capture('/home/pi/snap.jpg')
 ```
+You also can resize image with the same function:
+```
+camera.capture('/home/pi/snap.jpg', resize=(800, 600))
+```
 Example: capture 5 snaps with one minute separation:
 ```
 camera.start_preview()
@@ -82,10 +87,6 @@ for i in range(5):
     sleep(60)
     camera.capture('/home/pi/snap_%.jpg' % i)
 camera.stop_preview()
-```
-You also can resize image with the same function:
-```
-camera.capture('/home/pi/snap.jpg', resize=(800, 600))
 ```
 
 ### Video Capture
