@@ -99,9 +99,16 @@ camera.stop_recording()
 camera.stop_preview()
 ```
 
+## Picamera Web Interface
+There is a cool project to deploy a Apache local server in the Raspberry and use php to handle picamera. It is very easy to install and start on boot automatically. It will let you watch in Raspberry and local network a web interface with the camera preview and settings. 
+
+Everything you need to know about the project is here: https://elinux.org/RPi-Cam-Web-Interface
+GitHub project link below.
 
 ## References
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/
 https://picamera.readthedocs.io
+https://github.com/silvanmelchior/RPi_Cam_Web_Interface
+
 
 [Back to RaspberryWorkshop index](https://github.com/DiegoMartinezGlez/RaspberryWorkshop)
