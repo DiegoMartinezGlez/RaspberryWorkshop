@@ -9,7 +9,7 @@ Play in speakers-raspberry audio from mic-raspberry
 
 ### Requirements:
 - 2 raspberries, with static ips (https://github.com/DiegoMartinezGlez/RaspberryWorkshop/tree/master/static_ip_setup)
--- We are going to use as example: 192.168.1.101 for Raspberry with mic and 192.168.1.102 for Raspberry with speakers
+  - We are going to use as example: 192.168.1.101 for Raspberry with mic and 192.168.1.102 for Raspberry with speakers
 - Mic USB
 - Speakers
 
