@@ -17,8 +17,7 @@ Before setup/test, upgrade raspi system:
 - sudo apt-get update
 - sudo apt-get upgrade
 
-Setup mic/speaker: ... TODO: link ...
-
+Setup mic/speaker. How to: https://github.com/DiegoMartinezGlez/RaspberryWorkshop/tree/master/audio_setup
 
 ### Test mic&speakers:
 Let's test them, and if everything works fine you can avoid the "Setup" section after this one.
