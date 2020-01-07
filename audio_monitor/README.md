@@ -17,6 +17,8 @@ Before setup/test, upgrade raspi system:
 - sudo apt-get update
 - sudo apt-get upgrade
 
+Setup mic/speaker: ... TODO: link ...
+
 
 ### Test mic&speakers:
 Let's test them, and if everything works fine you can avoid the "Setup" section after this one.
@@ -41,63 +43,16 @@ Then to play it:
 aplay test.wav
 ```
 
-### Setup mic&speakers:
-
-YOU DON'T NEED THIS CHAPTER IF EVERYTHING WORKED IN PREVIOUS ONE!!
-
-From desktop you can easily change your audio input in preferences. 
-But if you need to work with CLI, here you have:
-
-You can check your device typing in shell:
-```
-lsusb
-```
-But you may need to check additional info for setup. Check with:
-```
-aplay -l
-```
-Get the card and device numbers.
-
-You will need for the other Raspberry to setup the playback device. To check card and device numbers:
-```
-arecord -l
-```
-
-Now you can setup devices: set in .asoundrc file (/home/pi, in case of pi user) this settings with your own card/devices numbers:
-
-```
-pcm.!default {
-  type asym
-  capture.pcm "mic"
-  playback.pcm "speaker"
-}
-pcm.mic {
-  type plug
-  slave {
-    pcm "hw:<card number>,<device number>"
-  }
-}
-pcm.speaker {
-  type plug
-  slave {
-    pcm "hw:<card number>,<device number>"
-  }
-}
-```
-
-
 ### Write sh script:
 ```
 #!/bin/bash
 arecord -D plughw:1,0 -f dat | sshpass -p raspi ssh -C pi@192.168.1.102 aplay -f dat
 ```
+
 ### Create service:
 ...
 
 ### Usage:
-...
-
-## References
 ...
 
 [Back to RaspberryWorkshop index](https://github.com/DiegoMartinezGlez/RaspberryWorkshop)
