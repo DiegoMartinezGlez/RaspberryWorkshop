@@ -17,6 +17,7 @@ Before setup/test, upgrade raspi system:
 From desktop you can easily change your audio input in preferences. 
 
 TODO: ... desktop setup ...
+TODO: ... minijack output setup ...
 
 But if you need to work with CLI, here you have:
 
